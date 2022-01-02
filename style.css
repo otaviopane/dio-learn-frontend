@@ -1,6 +1,7 @@
 body {
   background: #f7f7f7;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 100%;
 }
 
 a {
@@ -53,6 +54,13 @@ a {
 }
 
 .driver_img {
+  max-width: 100%;
   margin: 0 15px 15px 10px;
   border-radius: 15px;
+}
+
+.contact_list {
+  list-style-type: square;
+  padding: 0;
+  padding-left: 15px;
 }
