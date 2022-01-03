@@ -1,66 +1,53 @@
 body {
-  background: #f7f7f7;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  max-width: 100%;
-}
-
-a {
-  text-decoration: underline;
-  color: #2d0652;
+  background: rgb(20, 20, 20);
+  font-family: "Roboto", sans-serif;
 }
 
 .header_drivers_img {
   padding: 0;
   margin: 0;
   width: 100%;
-  border-radius: 15px;
 }
 
-#title,
-.subtitle,
-.driver_name {
-  color: rgb(100, 0, 0);
+#f1_logo {
+  width: 100px;
 }
 
 #title {
+  color: #ffffff;
+  padding: 15px;
+  font-weight: bold;
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
 }
 
 .subtitle {
-  font-size: 30px;
-  font-style: bold;
+  color: #ff0000;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
   text-align: center;
+  margin: 0;
 }
 
 .driver_name {
-  font-size: 24px;
-  font-style: italic;
-  margin: 0 0 15px 20px;
+  color: #ff0000;
+  padding: 15px;
 }
 
 .driver_article {
-  background: white;
-  padding: 15px;
-  border: 3px solid rgb(0, 0, 0);
+  padding: 30px;
   border-radius: 15px;
-  margin-bottom: 15px;
-}
-
-.driver_content {
-  margin: 0 0 15px 20px;
-  text-transform: capitalize;
+  background: #323232;
+  color: #ffffff;
+  align-items: center;
 }
 
 .driver_img {
-  max-width: 100%;
-  margin: 0 15px 15px 10px;
   border-radius: 15px;
-}
-
-.contact_list {
-  list-style-type: square;
-  padding: 0;
-  padding-left: 15px;
+  margin: 15px;
+  width: 95%;
 }

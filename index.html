@@ -5,21 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formula 1 - 2021</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <img src="img/f1-drivers.png" alt="Foto de todos os corredores de Formula 1 de 2021" class="header_drivers_img">
-        <h1 id="title">Formula 1 - 2021</h1>
+        <nav class="title navbar navbar-expand-lg navbar-dark" style="background-color: #ff0000;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="f1_logo" src="img/f1_logo.svg" alt="F1 logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Drivers</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Teams
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">All</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Alfa Romeo</a></li>
+                                <li><a class="dropdown-item" href="#">AlphaTauri</a></li>
+                                <li><a class="dropdown-item" href="#">Alpine</a></li>
+                                <li><a class="dropdown-item" href="#">Aston Martin</a></li>
+                                <li><a class="dropdown-item" href="#">Ferrari</a></li>
+                                <li><a class="dropdown-item" href="#">Haas</a></li>
+                                <li><a class="dropdown-item" href="#">McLaren</a></li>
+                                <li><a class="dropdown-item" href="#">Mercedes</a></li>
+                                <li><a class="dropdown-item" href="#">Red Bull</a></li>
+                                <li><a class="dropdown-item" href="#">Williams</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section>
+    
+    <section id="Teams">
         <header>
-            <h2 class="subtitle">Pilotos</h2>
+            <h2 class="subtitle">Teams</h2>
         </header>
-        <article class="driver_article">
+
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Alfa Romeo Racing</h3>
+                <img src="img/car_alfaromeo.png" alt="Alfa Romeo's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Alpha Tauri</h3>
+                <img src="img/car_alphatauri.png" alt="Alpha Tauri's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Alpine</h3>
+                <img src="img/car_alpine.png" alt="Alpine's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Aston Martin</h3>
+                <img src="img/car_astonmartin.png" alt="Aston Martin's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Ferrari</h3>
+                <img src="img/car_ferrari.png" alt="Ferrari's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Hass</h3>
+                <img src="img/car_hass.png" alt="Hass's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">McLaren</h3>
+                <img src="img/car_mclaren.png" alt="McLaren's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Mercedes</h3>
+                <img src="img/car_mercedes.png" alt="Mercedes's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Red Bull Racing</h3>
+                <img src="img/car_rbr.png" alt="Red Bull 's car photo" class="team_img">
+            </header>
+        </article>
+        <article class="container team_article">
+            <header>
+                <h3 class="team_name">Williams</h3>
+                <img src="img/car_williams.png" alt="Williams's car photo" class="team_img">
+            </header>
+        </article>
+    </section>
+
+    <section id="drivers">
+        <header>
+            <h2 class="subtitle">Drivers</h2>
+        </header>
+
+        <article class="container driver_article">
             <header>
                 <h3 class="driver_name">Lewis Hamilton</h3>
-                <img src="img/f1-ham-brflag.jpg" alt="Foto do Lewis Hamilton com a bandeira do Brasil" class="driver_img">
+                <img src="img/f1-ham-brflag.jpg" alt="Lewis Hamilton photo with Brazil's Flag" class="driver_img">
             </header>
             <p class="driver_content">
                 Sir <a href="https://www.formula1.com/en/drivers/lewis-hamilton.html">Lewis Carl Davidson Hamilton</a>, 
@@ -32,6 +144,7 @@
             </p>
         </article>
     </section>
+
     <footer>
         <ul class="contact_list">
             <li><a href="mailto:f1_email@email.exemplo">F1 Email</a></li>
