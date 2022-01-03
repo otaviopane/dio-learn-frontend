@@ -29,27 +29,11 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Drivers</a>
+                            <a class="nav-link" aria-current="page" href="#teams">Teams</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Teams
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">All</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Alfa Romeo</a></li>
-                                <li><a class="dropdown-item" href="#">AlphaTauri</a></li>
-                                <li><a class="dropdown-item" href="#">Alpine</a></li>
-                                <li><a class="dropdown-item" href="#">Aston Martin</a></li>
-                                <li><a class="dropdown-item" href="#">Ferrari</a></li>
-                                <li><a class="dropdown-item" href="#">Haas</a></li>
-                                <li><a class="dropdown-item" href="#">McLaren</a></li>
-                                <li><a class="dropdown-item" href="#">Mercedes</a></li>
-                                <li><a class="dropdown-item" href="#">Red Bull</a></li>
-                                <li><a class="dropdown-item" href="#">Williams</a></li>
-                            </ul>
-                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#drivers">Drivers</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -57,75 +41,108 @@
     </header>
     
     <section id="Teams">
-        <header>
-            <h2 class="subtitle">Teams</h2>
-        </header>
-
-        <article class="container team_article">
+        <div class="container-fluid text-center">
             <header>
-                <h3 class="team_name">Alfa Romeo Racing</h3>
-                <img src="img/car_alfaromeo.png" alt="Alfa Romeo's car photo" class="team_img">
+                <h2 class="subtitle" id="teams">Teams</h2>
             </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Alpha Tauri</h3>
-                <img src="img/car_alphatauri.png" alt="Alpha Tauri's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Alpine</h3>
-                <img src="img/car_alpine.png" alt="Alpine's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Aston Martin</h3>
-                <img src="img/car_astonmartin.png" alt="Aston Martin's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Ferrari</h3>
-                <img src="img/car_ferrari.png" alt="Ferrari's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Hass</h3>
-                <img src="img/car_hass.png" alt="Hass's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">McLaren</h3>
-                <img src="img/car_mclaren.png" alt="McLaren's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Mercedes</h3>
-                <img src="img/car_mercedes.png" alt="Mercedes's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Red Bull Racing</h3>
-                <img src="img/car_rbr.png" alt="Red Bull 's car photo" class="team_img">
-            </header>
-        </article>
-        <article class="container team_article">
-            <header>
-                <h3 class="team_name">Williams</h3>
-                <img src="img/car_williams.png" alt="Williams's car photo" class="team_img">
-            </header>
-        </article>
+            <div class="row">
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_arr">Alfa Romeo Racing</h3>
+                        <img src="img/car_alfaromeo.png" alt="Alfa Romeo's car photo" class="team_img">
+                    <p>
+                        Kimi Räikkönen | Antonio Giovinazzi
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_atr">Alpha Tauri</h3>
+                        <img src="img/car_alphatauri.png" alt="Alpha Tauri's car photo" class="team_img">
+                    <p>
+                        Pierre Gasly | Yuki Tsunoda
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_alp">Alpine</h3>
+                        <img src="img/car_alpine.png" alt="Alpine's car photo" class="team_img">
+                    <p>
+                        Fernando Alonso | Esteban Ocon
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_amr">Aston Martin</h3>
+                        <img src="img/car_astonmartin.png" alt="Aston Martin's car photo" class="team_img">
+                    <p>
+                        Sebastian Vettel | Lance Stroll
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_fer">Ferrari</h3>
+                        <img src="img/car_ferrari.png" alt="Ferrari's car photo" class="team_img">
+                    <p>
+                        Charles Leclerc | Carlos Sainz
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_has">Hass</h3>
+                        <img src="img/car_hass.png" alt="Hass's car photo" class="team_img">
+                    <p>
+                        Mick Schumacher | Nikita Mazepin
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_mcl">McLaren</h3>
+                        <img src="img/car_mclaren.png" alt="McLaren's car photo" class="team_img">
+                    <p>
+                        Daniel Ricciardo | Lando Norris
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_mer">Mercedes</h3>
+                        <img src="img/car_mercedes.png" alt="Mercedes's car photo" class="team_img">
+                    <p>
+                        Lewis Hamilton | Valtteri Bottas
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_rbr">Red Bull Racing</h3>
+                        <img src="img/car_rbr.png" alt="Red Bull 's car photo" class="team_img">
+                    <p>
+                        Max Verstappen | Sergio Perez
+                    </p>
+                    </header>
+                </div>
+                <div class="container team_div col-lg-4 col-md-6 col-sm-12">
+                    <header>
+                        <h3 class="team_name" id="team_wil">Williams</h3>
+                        <img src="img/car_williams.png" alt="Williams's car photo" class="team_img">
+                    <p>
+                        George Russell | Nicholas Latifi
+                    </p>
+                    </header>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="drivers">
         <header>
-            <h2 class="subtitle">Drivers</h2>
+            <h2 class="subtitle" id="drivers">Drivers</h2>
         </header>
 
         <article class="container driver_article">

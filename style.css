@@ -1,5 +1,6 @@
 body {
   background: rgb(20, 20, 20);
+  color: #ffeeee
   font-family: "Roboto", sans-serif;
 }
 
@@ -31,6 +32,44 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+}
+
+#team_arr {
+  color: #4b0a14;
+}
+#team_atr {
+  color: #142337;
+}
+#team_alp {
+  color: #1496d7;
+}
+#team_amr {
+  color: #00322d;
+}
+#team_fer {
+  color: #eb1e1e;
+}
+#team_has {
+  color: #ffffff;
+}
+#team_mcl {
+  color: #dc6e19;
+}
+#team_mer {
+  color: #afafb9;
+}
+#team_rbr {
+  color: #323750;
+}
+#team_wil {
+  color: #2d55c8;
+}
+
+.team_div {
+  padding: 15px;
+  border-radius: 15px;
+  color: #ffffff;
+  align-items: center;
 }
 
 .driver_name {
