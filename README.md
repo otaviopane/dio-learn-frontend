@@ -1,6 +1,12 @@
-# dio-learn-frontend
+# Formula 1 Site
 
 Learning Front-End Technologies with DIO bootcamp
+
+Used HTML5, CSS3 and Bootstrap
+
+I did a Formula 1 site with this knowledge.
+
+<p align="center"> <img src="img/project_f1_site_html_css_bootstrap.gif" /></p>
 
 # HTML5
 
